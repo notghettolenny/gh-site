@@ -2,7 +2,7 @@
 ![ghub](https://user-images.githubusercontent.com/62460299/157443583-cb06cc4d-68eb-437b-8aee-bc01081dd7bd.jpg)
 
 
-# 💠[G.H.WEBSITE](https://serene-pasteur-bf4a52.netlify.app/)💠
+# 💠[G.H.WEBSITE](https://gamersshub.netlify.app/)💠
 > Our very own website!
 ---
 ![GitHub top language](https://img.shields.io/github/languages/top/notghettolenny/gh-site) 
