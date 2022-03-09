@@ -28,9 +28,9 @@ Feel free to post your queries or any way to make the website better:
 <!-- markdownlint-disable -->
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/notghettolenny"><img src="https://avatars.githubusercontent.com/u/54077356?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ghrttoleny</b></sub></a><br /><sub><i>Project Lead Developer</i></sub></td>
+    <td align="center"><a href="https://github.com/notghettolenny"><img src="https://avatars.githubusercontent.com/u/79231993?v=4" width="100px;" alt=""/><br /><sub><b>Ghrttoleny</b></sub></a><br /><sub><i>Project Lead Developer</i></sub></td>
     <td align="center"><a href="https://github.com/jaximuss"><img src="https://avatars.githubusercontent.com/u/62460299?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jaximus Downing</b></sub></a><br /><sub><i>Core Developer</i></sub></td>
-    <td align="center"><a href="https://github.com/MilanFunRepos"><img src="https://avatars.githubusercontent.com/u/83963387?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saint Millan</b></sub></a><br /><sub><i>Core Developer</i></sub></td>
+    <td align="center"><a href="https://github.com/MilanFunRepos"><img src="https://avatars.githubusercontent.com/u/100406959?v=4" width="100px;" alt=""/><br /><sub><b>Saint Millan</b></sub></a><br /><sub><i>Core Developer</i></sub></td>
     
   </tr>
 </table>
