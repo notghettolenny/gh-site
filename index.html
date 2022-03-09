@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/section-one.css">
+    <link rel="stylesheet" href="css/section-tow.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>GH</title>
+</head>
+<body>
+    <!--start header-->
+    <div class="header">
+        <!--start loader screen-->
+        <div class="loader-screen">
+            <div class="loader loader-box">
+                <svg viewBox="0 0 80 80">
+                    <rect x="8" y="8" width="64" height="64"></rect>
+                </svg>
+            </div>
+        </div>
+        <!--end loader screen-->
+        <!--start hidden section-->
+        <!--start scroll to top -->
+        <i class="fas fa-chevron-up main"></i>
+        <!--end scroll to top -->
+        <div class="main-menu hidden">
+            <i class="fas fa-times"></i>
+            <div class="container">
+                <ul class="row">
+                    <li data-scroll="header">home</li>
+                    <li data-scroll="section-one .slider-two">about us</li>
+                    <li data-scroll="section-one .slider-four">events</li>
+                    <li>join us</li>
+                </ul>
+            </div>
+            <div class="icon">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-bag"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+        <div class="main-products hidden fade">
+            <div class="cart">
+                <i class="fas fa-times"></i>
+                <h2>cart<span>.</span></h2>
+                <div class="product">
+                    <div class="bord">
+                        <img src="imgs/product1.png">
+                        <div class="txt">
+                            <h2>Ober Headset</h2>
+                            <span>1 x $135</span>
+                        </div>
+                    </div>
+                    <div class="bord">
+                        <img src="imgs/product2.png">
+                        <div class="txt">
+                            <h2>Ober Headset</h2>
+                            <span>1 x $135</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <button>checkout $90</button>
+                </div>
+            </div>
+        </div>
+        <div class="main-search hidden slide">
+            <i class="fas fa-times"></i>
+            <div class="search">
+                <input type="search" placeholder="search here">
+                <input type="button" value="search">
+            </div>
+        </div>
+        <div class="main-video hidden fade">
+            <div class="frame-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/O91DT1pR1ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </iframe>
+            </div>
+        </div>
+        <div class="main-user hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="content">
+                        <div class="bord one col-md-8 ">
+                            <h4>login</h4>
+                            <form>
+                                <input class="full-w dark" type="number" placeholder="phone number or email">
+                                <input class="full-w dark" type="password" placeholder="password">
+                                <div class="txt">
+                                    <input type="checkbox"><label>remember me</label><a>forgot password</a>
+                                </div>
+                                <input class="full-w red" type="button" value="login now">
+                            </form>
+                            <p>don't have an account? <a>sign up</a></p>
+                            <span>click on up or down to exit</span>
+                        </div>
+                        <div class="bord two">
+                            <a href="index.html">gamershub<span>.</span></a>
+                            <p>Follow our Social Media Platforms</p>
+                            <div class="icons">
+                                <i class="fab fa-twitch"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-facebook-f"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hidden contact">
+            <div class="parent">
+                <h2>contact<span>.</span></h2>
+                <i class="fas fa-times"></i>
+                <form>
+                    <input type="text" placeholder="your full name">
+                    <input type="email" placeholder="your email address">
+                    <div class="foot">
+                        <textarea rows="6" placeholder="your message"></textarea>
+                        <hr>
+                        <button>send message</button>
+                    </div>  
+                </form>
+            </div>
+        </div>
+        <!--start contact section-->
+        <!--end contact section-->
+    </div>
+    <!--end hidden section-->
+    <!--start navbar-->
+    <div class="nav-bar">
+        <div class="container">
+            <div class="row">
+                <div class="navbar">
+                    <div class="logo">
+                        <h1>gamershub<span>.</span></h1>
+                    </div>
+                    <div class="icons">
+                        <div class="icon">
+                            <i class="fas fa-search"></i>
+                            <i class="fas fa-shopping-bag"></i>
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div class="menu">
+                            <i class="fas fa-bars"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end navbar-->
+    <header>
+        <div class="video">
+            <video autoplay loop muted height="100%">
+                <source src="imgs/bgvideo.mp4">
+            </video>
+        </div>
+        <div class="overlay">
+            <div class="social-icons">
+                <span>follow us</span>
+                <i class="fab fa-twitch"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="dir-icons">
+                <i class="fas fa-chevron-left"></i>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="img">
+                        <i class="fas fa-caret-right top"></i>
+                        <div class="photo"></div>
+                    </div>
+                    <div class="txt">
+                        <div class="con">
+                            <h1>gaming <br> 
+                                <span class="active">family</span>
+                                <span class="hidden-txt">community</span>
+                            </h1>
+                            <p>Come one, Come all.</p>
+                            <button>join community</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    </div>
+    <!--end header-->
+    <!--start section-one -->
+    <div class="section-one">
+        <div class="hidden-img"></div>
+        <!--start slider-one-->
+        <div class="slider-one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h5>today's</h5>
+                        <h2>games collection</h2>
+                        <p>Games Popular among our Members.</p>
+                        <button>browse more</button>
+                    </div>
+                    <div class="col-lg-8">
+                        <!--all stars has created by js-->
+                        <div class="bord one">
+                            <div class="img">
+                                <img src="imgs/game5.gif">
+                            </div>
+                            <h5>minecraft</h5>
+                        </div>
+                        <div class="bord two">
+                            <div class="img">
+                                <img src="imgs/game1.gif">
+                            </div>
+                            <h5>league of legends</h5>
+                        </div>
+                        <div class="bord three">
+                            <div class="img">
+                                <img src="imgs/game3.gif">
+                            </div>
+                            <h5>Team Fight Tactics</h5>
+                        </div>  
+                        <div class="bord four">
+                            <div class="img">
+                                <img src="imgs/vilgax.gif">
+                            </div>
+                            <h5>Brawlhalla</h5>
+                        </div>
+                    </div>
+                    <div class="red-line">
+                        <div class="left"></div>
+                        <div class="right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end slider-one-->
+        <!--start slider two-->
+        <div class="slider-two">
+            <div class="container">
+                <div class="row">
+                    <h1>about</h1>
+                    <div class="parent row">
+                        <div class="col-lg-5 bord one">
+                            <div class="clip"></div>
+                            <div class="txt">
+                                <h2>4</h2>
+                                <p>Years Of Leading</p>
+                            </div>                           
+                        </div>
+                        <div class="col-lg-7 bord two">
+                            <h5>gamershub</h5>
+                            <h2>A PLACE FOR PROFESSIONAL GAMERS FOR ESPORTS TOURNAMENT WORLDWIDE.</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi voluptatem deserunt ipsam culpa, obcaecati unde quo dignissimos cum ut rem? Fuga commodi, cumque voluptate. Cupiditate.
+                                <br>
+                                <br>
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet fugit incidunt rem laboriosam, voluptas, eaque.
+                            </p>
+                            <button>explore more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--start slider two-->
+        <!--start slider three-->
+        <div class="slider-three">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 count one text-center">
+                        <h1>70</h1><span class="txt">k</span><span class="red"> .</span>
+                        <p>community earning</p>
+                    </div>
+                    <div class="col-lg-3 count two text-center">
+                        <h1>75</h1><span class="txt">m</span><span class="red"> .</span>
+                        <p>Registered Players</p>
+                    </div>
+                    <div class="col-lg-3 count three text-center">
+                        <h1>185</h1><span class="txt">k</span><span class="red"> .</span>
+                        <p>Streams Complete</p>
+                    </div>
+                    <div class="col-lg-3 count four text-center">
+                        <h1>770</h1><span class="green"> .</span>
+                        <p>Total Sponsers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end slider three-->
+        <!--start slider four-->
+        <div class="slider-four">
+            <div class="container">
+                <h1><span>m</span>atches</h1>
+                <div class="row">
+                    <div class="parent">
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/g1.png">
+                            </div>
+                            <div class="txt">
+                                <div class="white">
+                                    <span class="left">alpa xtreme</span>
+                                    <span class="right">24</span>
+                                </div>
+                                <div class="black">
+                                    <span class="left">nova eleven max</span>
+                                    <span class="right">12</span>
+                                </div>
+                                <p class="live">live <i class="fas fa-circle"></i></p>
+                            </div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/g2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="white">
+                                    <span class="left">four angry man</span>
+                                    <span class="right">5</span>
+                                </div>
+                                <div class="black">
+                                    <span class="left">ninja gaming</span>
+                                    <span class="right">12</span>
+                                </div>
+                                <p class="live">live <i class="fas fa-circle"></i></p>
+                            </div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/g1.png">
+                            </div>
+                            <div class="txt">
+                                <div class="white">
+                                    <span class="left">a1 esports team</span>
+                                    <span class="right">40</span>
+                                </div>
+                                <div class="black">
+                                    <span class="left">ninja gaming</span>
+                                    <span class="right">35</span>
+                                </div>
+                                <p class="live">live <i class="fas fa-circle"></i></p>
+                            </div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/g2.png">
+                            </div>
+                            <div class="txt">
+                                <div class="white">
+                                    <span class="left">universal gaming</span>
+                                    <span class="right">12</span>
+                                </div>
+                                <div class="black">
+                                    <span class="left">future station</span>
+                                    <span class="right">5</span>
+                                </div>
+                                <p class="live">live <i class="fas fa-circle"></i></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="matches">
+                        <h3>PREVIOUS MATCHES</h3>
+                        <div class="row">
+                            <div class="battle col-lg-6">
+                                <div class="imgOne">
+                                    <img src="imgs/team1.png">
+                                </div>
+                                <div class="result">
+                                    <p>17 : 08</p>
+                                </div>
+                                <div class="imgTwo">
+                                    <img src="imgs/team3.png">
+                                </div>
+                            </div>
+                            <div class="battle col-lg-6">
+                                <div class="imgOne">
+                                    <img src="imgs/team2.png">
+                                </div>
+                                <div class="result">
+                                    <p>17 : 08</p>
+                                </div>
+                                <div class="imgTwo">
+                                    <img src="imgs/team4.png">
+                                </div>
+                            </div>
+                            <div class="battle col-lg-6">
+                                <div class="imgOne">
+                                    <img src="imgs/team3.png">
+                                </div>
+                                <div class="result">
+                                    <p>17 : 08</p>
+                                </div>
+                                <div class="imgTwo">
+                                    <img src="imgs/team4.png">
+                                </div>
+                            </div>
+                            <div class="battle col-lg-6">
+                                <div class="imgOne">
+                                    <img src="imgs/team1.png">
+                                </div>
+                                <div class="result">
+                                    <p>17 : 08</p>
+                                </div>
+                                <div class="imgTwo">
+                                    <img src="imgs/team2.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+        <!--end slider four-->
+        <!--start slider five-->
+        <div class="slider-five">
+            <div class="hidden-video">
+                <div class="video-frame">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/O91DT1pR1ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row one">
+                    <div class="img">
+                        <img src="imgs/fnatic.jpg">
+                    </div>
+                    <i class="fas fa-caret-right"></i>
+                </div>
+                <div class="row two">
+                    <div class="parent">
+                        <div class="img">
+                            <img src="imgs/brand2.png">
+                        </div>
+                        <div class="img">
+                            <img src="imgs/brand3.png">
+                        </div>
+                        <div class="img">
+                            <img src="imgs/brand4.png">
+                        </div>
+                        <div class="img">
+                            <img src="imgs/brand2.png">
+                        </div>
+                        <div class="img">
+                            <img src="imgs/brand3.png">
+                        </div>
+                        <div class="img">
+                            <img src="imgs/brand4.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!--end slider five-->
+    </div>
+    <!--end section-one -->
+    <!--start section-two -->
+    <div class="section-tow">
+        <!--start slide-one-->
+        <div class="slider-one">
+            <div class="container">
+                <h1><span>p</span>layers</h1>
+                <div class="row player">
+                    <div class="parent">
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/player1.jpg">
+                            </div>
+                            <div class="lightbox">+</div>
+                            <div class="title">GH Jaximus</div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/player2.jpg">
+                            </div>
+                            <div class="lightbox">+</div>
+                            <div class="title">Milan_YSL</div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/player3.jpg">
+                            </div>
+                            <div class="lightbox">+</div>
+                            <div class="title">Pope Francis</div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/player4.jpg">
+                            </div>
+                            <div class="lightbox">+</div>
+                            <div class="title">Lennysl</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row result">
+                    <div class="col-lg">
+                        <h2>MEET OUR MEMBERS.<br><span></span></h2>
+                    </div>
+                    <div class="col-lg">
+                        <div class="one">
+                            <h1>30<span></span></h1>
+                            <p>Members</p>
+                        </div>
+                        <div class="two">
+                            <h1><span>120</span>M</h1>
+                            <p>Total Players</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end slide-one-->
+        <!--start slide-two-->
+        <div class="slider-tow">
+            <div class="container">
+                <h1><span>D</span>euxClone Shop</h1>
+                <div class="row product">
+                    <div class="parent">
+                        <div class="bord">
+                            <h1>$30</h1>
+                            <img src="imgs/product1.png">
+                            <p>headset</p>
+                            <span>add to cart</span>
+                        </div>
+                        <div class="bord">
+                            <h1>$60</h1>
+                            <img src="imgs/product2.png">
+                            <p>Watercolour</p>
+                            <span>add to cart</span>
+                        </div>
+                        <div class="bord">
+                            <h1>$299</h1>
+                            <img src="imgs/product3.png">
+                            <p>wired earphone</p>
+                            <span>add to cart</span>
+                        </div>
+                        <div class="bord">
+                            <h1>$99</h1>
+                            <img src="imgs/product1.png">
+                            <p>ober header</p>
+                            <span>add to cart</span>
+                        </div>
+                        <div class="bord">
+                            <h1>$199</h1>
+                            <img src="imgs/product2.png">
+                            <p>D-link webcam</p>
+                            <span>add to cart</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="row join">
+                    <div class="txt">
+                        <span>let's play together</span>
+                        <h1>join game ESports to become
+                            next PRO gamer today! 
+                        </h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam assumenda fugiat veritatis, mollitia. Nisi, quas.</p>
+                        <button>join community</button>
+                    </div>
+                    <div class="col-lg img">
+                        <img src="imgs/join-bg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end slide-two-->
+        <!--start slide-three-->
+        <div class="slider-three">
+            <div class="container">
+                <h1><span>b</span>logs</h1>
+                <div class="row">
+                    <div class="parent">
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/blog1.jpg">
+                            </div>
+                            <div class="txt">
+                                <span>55 min ago</span>
+                                <h2>GH Birthday
+                                    <br>
+                                    Gamershub celebrates 4 years
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/blog2.jpg">
+                            </div>
+                            <div class="txt">
+                                <span>3 weeks ago</span>
+                                <h2>GH Birthday
+                                    <br>
+                                    Gamershub celebrates 4 years
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/blog3.jpg">
+                            </div>
+                            <div class="txt">
+                                <span>12 day ago</span>
+                                <h2>GH Birthday
+                                    <br>
+                                    Gamershub celebrates 4 years
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="bord">
+                            <div class="img">
+                                <img src="imgs/blog4.jpg">
+                            </div>
+                            <div class="txt">
+                                <span>5 min ago</span>
+                                <h2>GH Birthday
+                                    <br>
+                                    Gamershub celebrates 4 years
+                                </h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="buttons"><!--append arrows from plagin --></div>
+                </div>
+            </div>
+        </div>
+        <!--end slide-three-->
+    </div>
+    <!--end section-two -->
+    <!--start footer -->
+    <footer>
+        <section class="one">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg">
+                        <h1>GET LATEST NEWS IN YOUR INBOX FROM GAMERSHUB.</h1>
+                    </div>
+                    <div class="col-lg text-center">
+                        <button>subscribe now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <a href="index.html">gamershub<span>.</span></a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam vero officiis rem consectetur sunt cupiditate eius obcaecati, culpa, aspernatur aperiam id.</p>
+                        <div class="icons">
+                            <i class="fab fa-twitch"  data-color="#9147ff"></i>
+                            <i class="fab fa-twitter" data-color="#33ccff"></i>
+                            <i class="fab fa-facebook-f" data-color="#1977f3"></i>
+                            <i class="fab fa-youtube" data-color="#ff0000"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <h2>Site Menu</h2>
+                        <ul>
+                            <li>home</li>
+                            <li>tournments</li>
+                            <li>about us</li>
+                            <li>events</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h2>Useful Links</h2>
+                        <ul>
+                            <li>create account</li>
+                            <li>subscription</li>
+                            <li>Affiliate</li>
+                            <li>site condition</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-2">
+                        <h2>information</h2>
+                        <ul>
+                            <li>FAQ</li>
+                            <li>site maps</li>
+                            <li>privacy policy</li>
+                            <li>contact us</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="three">
+            <div class="container">
+                <div class="row">
+                    <h1>© 2022- Developed by <br><span>Lennysl.</span></h1>
+                    <p>all rights reserved.</p>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!--end footer -->
+    <!--script files-->
+    <script src="javascript/jquery-3.6.0.min.js"></script>
+    <script src="javascript/slick.min.js"></script>
+    <script src="javascript/bootstrap.min.js"></script>
+    <script src="javascript/main.js"></script>
+    <!--script files-->
+</body>
+</html>
